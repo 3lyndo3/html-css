@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+
+<body>
+    <h1>formulário fe agemdamento de consulta</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="nomepaciente">Nome completo:</label>
+            <input type="text" name="nomepaciende" id="nomepaciente">
+        </div>
+        <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+        </div>
+        <div>
+            <label for="dn">Data de nascimento</label>
+            <input type="date" name="dn" id="dn">
+        </div>
+        <div>
+            <label for="">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone" id="telefone">
+        </div>
+        <div>
+           <textarea name="obs" id="obs" cols="50" rows="10" placeholder="Sua observaçaõ aqui..."></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="convenio" id="convenio">
+            <label for="convenio">Possui convenio</label>
+        </div>
+        <div>
+            <label for="especialidade">Especialidade - consulta</label>
+            <select name="especialiade" id="especialidade">
+                <option value="">Clinico geral</option>
+                <option value="">Cardiologista</option>
+                <option value="">fisioterapeuta</option>
+                <option value="">Pediatra</option>
+                <option value="">Ginecologista</option>
+                <option value="">Psicologa</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Local - consulta</label>
+            <br>
+            <input type="radio" name="ubs" id="ubs">
+            <label for="">UBS-aparecida</label>
+            <br>
+            <input type="radio" name="ubs" id="ubs">
+            <label for="">UBS-praias</label>
+            <br>
+            <input type="radio" name="ubs" id="ubs">
+            <label for="">UBS-centro</label>
+        </div>
+        <div>
+            <label for="">Data-consulta</label>
+            <input type="datetime-local" name="data-consulta" id="data-consulta">
+        </div>
+        <div>
+            <input type="submit" value="Agendar">
+            <input type="reset" name="" id="Limpar">
+        </div>
+    </form>
+</body>
+
+</html>
